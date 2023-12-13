@@ -1,0 +1,135 @@
+.search-custom-select {
+
+ height: 52px;
+ /* padding: 0px 20px; */
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ border-radius: 12.625px;
+border: 2.571px solid rgba(255, 255, 255, 0.30);
+background: var(--priemery-color, #6AB716);
+ position:relative ;
+ cursor: pointer;
+ display: flex;
+width: 186.839px;
+padding: 5px 10px 0px 10px;
+
+justify-content: center;
+align-items: center;
+
+}
+
+/* Style for the selected option */
+.search-selected-option {
+ border:none ;
+ padding: 10px;
+ height: 100%;
+ width: 100%;
+border-radius: 8px;
+
+ color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 15.427px; /* 110.193% */
+}
+
+/* Style for the dropdown icon */
+.search-dropdown-icon {
+ position: absolute;
+ top: 50%;
+ right: 15px;
+
+ color:#fff;
+
+ transform: translateY(-60%);
+ font-size: 18px;
+}
+
+/* Style for the searchpageoptions container */
+.searchpageoptions {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ display: none;
+ position: absolute;
+ top: 100%;
+
+z-index: 300;
+
+ width:100%;
+
+
+border: 1px solid #6AB716;
+
+margin-top:5px;
+padding:5px;
+background: #FDFFFC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 15.427px; /* 110.193% */
+}
+
+/* Style for individual searchpageoptions */
+.searchpageoptions li {
+ padding: 10px;
+
+ cursor: pointer;
+}
+
+/* Hover effect for searchpageoptions */
+.searchpageoptions li:hover {
+ background-color: #6AB716;
+ color: #fff;
+ /* border-radius: 8px; */
+}
+
+/* Style for selected option background */
+.selected {
+ background-color: #6AB716;
+ color: #fff;
+}
+.searchselecteddropdown {
+
+ color: #fff;
+}
+/* .searchopendropdownicon {
+ transform: rotate(180deg);
+ transition: transform 0.3s ease;
+} */
+
+.searchpagecontainer{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.searchpagecontainer .searchpagesearchbar{
+ border-radius: 12.625px;
+ width: 40%;
+height: 52px;
+display: flex;
+justify-content: space-between;
+padding: 0px 10px;
+align-items: center;
+
+flex-shrink: 0;
+ border: 2.711px solid #6AB716;
+ background: var(--White, #FFF);
+ box-shadow: 0px 2.711px 6.779px 0px rgba(0, 0, 0, 0.10);
+}
+
+.searchpagecontainer .searchpagesearchbar input{
+ color: #909090;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: 18.98px; /* 135.575% */
+border:none;
+outline:none;
+}

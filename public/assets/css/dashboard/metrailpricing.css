@@ -1,0 +1,40 @@
+#addnewmetrailselectbox:hover{
+    outline: none;
+    box-shadow: none;
+    border-radius: 9px;
+    border: 1px solid var(--Stroke-Color, #DDD);
+    background: #FFF;
+}
+#addnewmetrailselectbox{
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+border-radius: 9px;
+border: 1px solid var(--Stroke-Color, #DDD);
+background: #FFF;
+line-height: normal;
+
+}
+#addnewmetrailselectbox option{
+   
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+/* background-color: red; */
+font-weight: 400;
+line-height: normal;
+}
+
+/* Style for hover effect on other options */
+.metrailpricingoverlay{
+    height: 100vh;
+    width:100vw;
+    position:fixed;
+    background: rgba(81, 81, 81, 0.69);
+    
+    display:none;
+  }

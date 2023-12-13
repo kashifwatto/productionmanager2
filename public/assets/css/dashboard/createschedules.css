@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0!;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+.create-schdules-container-top-btn-container{
+padding:20px;
+
+}
+.create-schdules-container-2nd-row{
+    /* margin-top: 50px; */
+    padding: 10px 100px;
+}
+.create-schdules-container-2nd-row h3{
+    color: var(--gray, #2D3748);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.8px;
+}
+.create-schdules-container-2nd-row h1{
+    color: var(--gray, #2D3748);
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.schedules-live-input{
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+flex-direction: column;
+}
+.schedules-live-input input{
+    display: block;
+
+}
+.schedules-live-input label{
+    display: block;
+    color: var(--gray, #2D3748);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 55PX;
+    text-align: center;
+}
+
+
+.create-schdules-container-2nd-row-part2 a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.create-schdules-container-2nd-row-part2 a h6{
+    color: var(--priemery-color, #6AB716);
+
+
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.create-schdules-container-2nd-row-part2 a img{
+    margin-left:5px;
+    margin-top:-10px;
+}
+#showclederbtn{
+    cursor: pointer;
+}
+
+
+.create-scddules-container-3rd-row{
+    border-radius: 10px;
+background: #FFF;
+box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+/* width:100%; */
+margin-right: 30px;
+
+/* height: 315px; */
+
+padding: 35px !important;
+margin-left: 30px !important;
+}
+.create-scddules-container-3rd-row .row .col-md-5{
+
+    padding-left: 20px;
+    padding-right: 0px !important;
+}
+.create-scddules-container-3rd-row .row .col-md-7{
+
+    padding-left: 20px;
+    padding-right: 20px !important;
+}
+
+
+.addteamselectprojectselect{
+    display: flex;
+
+height: 40px;
+padding: 0px 20px;
+align-items: center;
+cursor: pointer;
+
+border-radius: var(--8, 8px);
+border: 1px solid rgba(105, 105, 105, 0.30);
+}
+.addteamselectprojectselect h6{
+    margin: 0px;
+    padding: 0px;
+    color: var(--New-Black-color-Text, #585858);
+font-family: Poppins;
+width:100%;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.addteamselectemployeeselect .template-select {
+    width: 270px;
+    height: 42px;
+
+}
+.addteamselecttimeselect input,.addteamselectlocationselect input{
+    display: flex;
+width: 175px;
+padding: 0px 10px 0px 10px;
+text-align: center;
+justify-content: flex-end;
+align-items: center;
+flex-shrink: 0;
+border-radius: var(--8, 8px);
+border: 1px solid rgba(105, 105, 105, 0.30);
+height:40px;
+color: var(--New-Black-color-Text, #585858);
+
+/* card text */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+outline: none;
+}
+.addteamselecttrailerselect{
+    padding-left:0px;
+}
+
+.addteamselecttruckselect .addemployselecttrucktemplatebtn{
+    /* width:150px; */
+    display: flex;
+    padding: 12px 5px 9px 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 94px;
+    height: 42px;
+    /* width:180px; */
+}
+.addteamselecttrailerselect .addemployselecttrucktemplatebtn{
+    display: flex;
+padding: 12px 5px 9px 15px;
+justify-content: center;
+align-items: center;
+gap: 94px;
+width:180px;
+/* margin: 0px; */
+height: 42px;
+
+
+}
+
+.create-scddules-container-3rd-row .col {
+    margin: 0px !important;
+}
+.create-scddules-container-3rd-row .row{
+    display: flex;
+    gap:0px;
+}
+
+.addteamdeletebtncontainer a{
+    display: flex;
+width: 161px;
+height: 34px;
+padding: px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 7px;
+background: #DC3500;
+
+}
+.addteamdeletebtncontainer a span{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.addteamsavedatabtn a{
+    display: flex;
+width: 237px;
+height: 43px;
+padding: 8px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 7px;
+background: var(--priemery-color, #6AB716);
+}
+.addteamsavedatabtn a span{
+    color: var(--White, #FFF);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.form-container-select-project{
+    padding: 0px 50px 0px 80px;
+}
+.form-container-select-project h1{
+    color: var(--gray, #2D3748);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+input[type="time"] {
+    /* Remove the default clock icon in some browsers */
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+  }
+
+  input[type="time"] {
+    content: "8:30";
+    /* color: #999; */
+  }
+
+  .createschedulesoverlay{
+    height: 100vh;
+    width:100vw;
+    position:fixed;
+    background: rgba(81, 81, 81, 0.69);
+
+    display:none;
+  }

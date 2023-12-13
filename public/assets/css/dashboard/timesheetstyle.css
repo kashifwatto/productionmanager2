@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+.timesheetpagecontainer{
+
+ background-color: #fff;
+ height: 80vh;
+ padding:20px 30px;
+
+}
+.timesheetsidebar{
+ /* border: 1px solid gray; */
+ height: 90vh ;
+ background: #F9F9F9;
+box-shadow: 4px 4px 7.8px 0px rgba(0, 0, 0, 0.06);
+display: flex;
+padding: 15px 5px ;
+
+}
+body{
+ background-color: #fff;
+}
+.timesheetsidebar a{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #0000;
+display: flex;
+/* width:150px; */
+padding: 10px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: var(--White, #000);
+font-family: Poppins;
+font-size: 20px;
+margin:5px 0px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.timesheetsidebar a:hover{
+ color:#fff;
+ background-color: #6AB716;
+}
+.timesheetsidebar a.active{
+ color:#fff;
+ background-color: #6AB716;
+}
+.timesheetcontent{
+ padding: 0px;
+
+}
+.timesheetcontent .header{
+ display: flex;
+width: 100%;
+height: 132px;
+padding: 6.664px 44.647px;
+align-items: center;
+gap: 221px;
+flex-shrink: 0;
+background: #F6F6F6;
+box-shadow: 0.66638px 2.66551px 3.46516px 0px rgba(140, 140, 140, 0.17);
+}
+.timesheetcontent .header .row{
+ width:100%;
+}
+.timesheetcontent .header .row .clientname{
+ color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.timesheetcontent .header .row .timesheets{
+ color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.timesheetcontent .header .row .date{
+ color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+.timesheetcontent .header .row .date span{
+ color: #6AB716;
+
+}
+.timesheetcontent .header .row h3{
+ color: var(--gray, #2D3748);
+font-family: Poppins;
+font-size: 21.324px;
+font-style: normal;
+/* text-align: center; */
+font-weight: 400;
+line-height: normal;
+}
+.timesheetcontent .header .row h1{
+ color: #000;
+ font-family: Poppins;
+ font-size: 31.986px;
+ font-style: normal;
+ /* text-align: center; */
+
+ font-weight: 400;
+ line-height: normal;
+}
+
+.timesheettabblecontainer th{
+ color: var(--Title, #14191F);
+
+/* Body txt/body-S-Regular */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 148%; /* 23.68px */
+}
+.timesheettabblecontainer td{
+ color: var(--grayscale-black, #1A141F);
+
+ /* Body txt/body-S */
+ font-family: Poppins;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 300;
+ line-height: 148%; /* 23.68px */
+ background: linear-gradient(0deg, rgba(245, 243, 247, 0.40) 0%, rgba(245, 243, 247, 0.40) 100%), #FFF;;
+}
+
+.daterangeoutercontainer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}

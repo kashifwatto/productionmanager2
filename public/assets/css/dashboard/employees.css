@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.emloyess-table-container {
+    padding: 60px;
+    /* height: 80vh; */
+
+}
+
+.add-employ-btn {
+    border-radius: 11px;
+    background: var(--priemery-color, #6AB716);
+
+
+    width: 158px;
+    height: 36px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.add-employ-btn a button {
+    color: var(--Text-White, #FFF);
+
+
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #0000;
+    border: none;
+
+    line-height: normal;
+}
+
+.employess-table {
+    padding: 30px 60px 0px 60px;
+
+
+}
+
+.mytable {
+    border-collapse: collapse;
+    border-radius: 27px;
+    border: 1px solid var(--Dark-Text, #A6A3A3);
+
+    width: 100%;
+    height: 68vh;
+
+}
+
+.mytable table {
+    /* border-collapse: collapse; */
+    /* border-radius: 27px; */
+    /* border: 1px solid var(--Dark-Text, #A6A3A3); */
+    background: rgba(217, 217, 217, 0.00);
+    width: 100%;
+
+}
+
+.mytable td {
+
+    padding: 10px;
+    border: 1px solid var(--Dark-Text, #A6A3A3);
+    background: #FCFCFC;
+    color: var(--New-Black-color-Text, #585858);
+
+    /* Medium text */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mytable th {
+
+    padding: 20px;
+    color: var(--Black-Color, #383838);
+
+    /* Medium text */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mytable th.th-border {
+    border-right: 1px solid var(--Dark-Text, #A6A3A3);
+
+}
+
+/*  metrial pricing page css*/
+.metrail-table-container {
+    margin: 20px 20px 0px 20px;
+    padding: 30px;
+    border-radius: 30px;
+    border: 1.5px solid var(--Stroke-Color, #DDD);
+    background: var(--Text-White, #FFF);
+}
+.metrail-table-container .metrailpagebuttoncontainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.metrail-pricing-btn1 {
+    border-radius: 11px;
+    background: var(--priemery-color, #6AB716);
+    width: 158px;
+    height: 36px;
+    display: inline;
+    padding: 5px 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.metrail-pricing-btn1 button,
+.metrail-pricing-btn2 button {
+    color: var(--Text-White, #FFF);
+
+    /* Medium text */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #0000;
+    border: none;
+
+    line-height: normal;
+}
+
+.metrail-pricing-btn2 {
+    border-radius: 11px;
+    background: #008001;
+    width: 158px;
+    height: 36px;
+    display: inline;
+    padding: 5px 10px;
+    gap: 10px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.metrail-table-container  .metailpage-table{
+    margin-top: 30px;
+}
+.metrail-table-container  .metailpage-table td{
+    padding:5px 10px;
+
+}
+
+/* schedules page stlyling */
+.schedule-btn2 {
+    border-radius: 11px;
+    background: #017AD2;
+    width: 158px;
+    height: 36px;
+    display: inline;
+    padding: 5px 10px 10px 10px;
+    gap: 10px;
+    margin: 0px 10px;
+}
+
+.form-check-input[type="checkbox"] {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    box-shadow: none;
+    background-color: #ddd;
+}
+
+.form-check-input[type="checkbox"]:checked {
+    background-color: var(--priemery-color, #6AB716);
+    border: none;
+
+    outline: none;
+    box-shadow: none;
+}
+
+.form-switch .form-check-input {
+
+    width: 2em;
+    margin-left: -2.5em;
+    background-image: url(../../images/dashboard/checkboc-icon.svg);
+
+    background-position: left center;
+    border-radius: 2em;
+    transition: background-position .15s ease-in-out;
+}
+.employee-overlay{
+    height: 100vh !important;
+    width:100vw !important;
+
+    position:fixed;
+    background: rgba(81, 81, 81, 0.69);
+
+    display:none;
+
+}
+
+
+/* schedules page btn */
+.schedulesbuttoncontainer{
+    display: flex;
+justify-content: start;
+align-items: center;
+}
+.addnewschedulesbtn{
+    width: 158px;
+height: 36px;
+border-radius: 11px;
+background: var(--priemery-color, #6AB716);
+padding:5px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.addnewschedulesbtn button{
+    color: var(--Text-White, #FFF);
+
+    /* Medium text */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: #0000;
+    border:none
+}
+
+.runchedulescronbtn{
+    width: 158px;
+height: 36px;
+border-radius: 11px;
+background: #017AD2;
+padding:5px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.runchedulescronbtn button{
+    color: var(--Text-White, #FFF);
+
+/* Medium text */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+background-color: #0000;
+border: none;
+}
+.schedulespagecontainer .schedulestable{
+    margin-top: 30px;
+
+}
+.schedulespagecontainer .schedulestable tr td{
+    /* max-height: 10px; */
+    padding:5px 10px;
+}
+.emloyess-table-container{
+    background-color: #F7F8FA;
+}
+.emloyess-table-container .employess-table tr td{
+padding:5px 10px;
+}

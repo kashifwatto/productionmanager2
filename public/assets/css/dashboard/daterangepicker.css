@@ -1,0 +1,126 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.customdaterangepickerinput{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    color: var(--priemery-color, #6AB716);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+}
+.daterangepicker th.month {
+    color: var(--grayscale-black, #1a141f);
+    text-align: center;
+
+    /* Body txt/body-M */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 132%; /* 23.76px */
+}
+.daterangepicker tr th {
+    color: var(--grayscale-border, #aba7af);
+    text-align: center;
+
+    /* Body txt/body-S-Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 148%; /* 23.68px */
+}
+.daterangepicker tr td.available {
+    color: var(--grayscale-black, #1a141f);
+    text-align: center;
+
+    /* Body txt/body-XS */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+}
+.daterangepicker tr td.off {
+    color: var(--grayscale-border, #aba7af);
+    text-align: center;
+
+    /* Body txt/body-XS */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+}
+.daterangepicker tr td.active {
+    border-radius: 4px;
+    background: var(--priemery-color, #6ab716) !important;
+    color: var(--grayscale-white, #fff) !important;
+    text-align: center;
+
+    /* Body txt/body-XS */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+}
+.daterangepicker tr td.in-range  {
+
+    background: var(--priemery-color, #E1F1D0);
+
+}
+
+.daterangepicker tr td.active:hover {
+    background: var(--priemery-color, #6ab716);
+    color: var(--grayscale-white, #fff);
+}
+
+.daterangepicker.show-calendar .drp-buttons {
+    display: none;
+}
+.daterangepicker.ltr.show-calendar.opensright {
+    border-radius: 4px;
+    border: 1px solid var(--grayscale-spacer-light, #e5e0eb);
+    background: var(--grayscale-white, #fff);
+
+    /* Small Shadow */
+    box-shadow: 0px 8px 16px 0px rgba(62, 19, 77, 0.07);
+    /* padding:10px; */
+    /* width: 640px;
+height: 325px;
+flex-shrink: 0; */
+}
+.drp-calendar .next.available span{
+    display: none;
+}
+.drp-calendar .next.available:hover{
+    background: none;
+}
+
+.drp-calendar .next.available::after {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="6" viewBox="0 0 40 6" fill="none"><path d="M40 3L35 0.113246L35 5.88675L40 3ZM4.37114e-08 3.5L35.5 3.5L35.5 2.5L-4.37114e-08 2.5L4.37114e-08 3.5Z" fill="%236AB716"/></svg>');
+
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+.drp-calendar .prev.available span{
+    display: none;
+}
+.drp-calendar .prev.available:hover{
+    background: none;
+}
+
+.drp-calendar .prev.available::after {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="6" viewBox="0 0 40 6" fill="none"><path d="M0 3L5 0.113246L5 5.88675L0 3ZM40 3.5L4.5 3.5L4.5 2.5L40 2.5L40 3.5Z" fill="%236AB716"/></svg>');
+    display: inline-block;
+    display: inline-block;
+    margin-bottom: 5px;
+
+}

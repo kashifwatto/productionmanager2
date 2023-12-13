@@ -1,0 +1,222 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+
+    .logo-part{
+        width:50%;
+        height:100vh;
+        background-color:  #FBFFF5;    ;
+    background-image: url('../images/login/logo2.svg');
+    background-repeat: no-repeat;
+    background-position-x: -30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .form-part{
+        
+        width:50%;
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    .form-part .form-part-inner{
+        
+
+        
+    }
+    .logo-part .logo img{
+        height: 350px;
+        width:350px;
+    }
+    .form-part h1{
+        color: #4A4543;
+    
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .form-part h2{
+        color:  #808080;
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    }
+    .form-part form .label{
+        display:block;
+        color:  #4A4543;
+    margin:10px 0px 5px 0px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .form-part form .input{
+        width: 100%;
+    padding: 13px 29px 13px 16px;
+    border-radius: 8px;
+    color: #808080;
+    outline:none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    border: 1px solid  #DADADA;
+    }
+    .form-part form input:hover,.form-part form input:active{
+        outline: none;
+    
+    }
+    .checkbox-container{
+        margin:10px 0px;
+    }
+    .checkbox-container input{
+        outline:none;
+       
+    }
+    .form-check-input  {
+        border-color: #6AB716;
+        box-shadow: none;
+        outline: none !important;
+    }
+    .form-check-input:checked {
+
+        background-color:#6AB716;
+        border-color: #6AB716;
+
+        /* Remove the shadow */
+        box-shadow: none;
+        outline: none !important;
+    }
+    .form-check-input:focus{
+        outline: none !important;
+        box-shadow: none;
+        border-color: #6AB716;
+    }
+    /* Optional: Change the color of the label text */
+    
+    .checkbox-container .formcheck {
+        padding:0px !important;
+    }
+    
+    .checkbox-container a{
+        color:  #6AB716;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: normal;
+    }
+    .button-container{
+        margin:10px 0px;
+    }
+    .button-container button{
+        width: 100%;
+    padding: 13px 0px;
+    border-radius: 8px;
+    border:none;
+    color:  #FFF;
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    background:  #6AB716;
+    }
+    .text{
+        margin:20px 0px;
+    
+    }
+    .text h6{
+        color: #000;
+    
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .text h6 a{
+        color: #6AB716;
+        text-decoration: underline;
+    }
+
+
+
+
+@media(max-width:667px){
+    .logo-part{
+        width:100%;
+        height:auto;
+
+        padding:0px 0px;
+        
+    
+    }
+    .form-part{
+        width:100%;
+        height:100%;
+
+    }
+  /* .form-part form{
+    margin-left:30px
+    
+  } */
+    .logo img{
+        max-width:100px;
+        max-height:100px;
+    }
+
+    
+     .form-part h1{ 
+        font-size:23px;
+        text-align: center;
+}
+.form-part h2{
+    font-size: 12px;
+    text-align: center;
+}
+.form-part form .input{
+    width: 95%;
+padding: 13px 29px 13px 16px;
+/* text-align: center; */
+}
+.button-container button{
+    width:95%;
+}
+@media(max-width:280px){
+    .checkbox-container .formcheck label{
+        font-size: 14px;
+
+    }
+    .checkbox-container .forget a{
+        font-size: 12px;
+
+    }  
+}
+
+
+
+}

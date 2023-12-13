@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.modal-container {
+    width: 805px;
+    height: 550px;
+
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: auto;
+    left: 50%;
+/* z-index: 48789457824687; */
+    top: -450%;
+    transform: translate(-50%, -50%);
+    z-index: 300;
+    border-radius: 8px;
+    background: var(--Shapes-color, #fff);
+    padding: 30px 20px;
+
+    transition: 1s all;
+}
+
+.modal-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modal-top span {
+    position: relative;
+    top: 5%;
+    right: 3%;
+
+    color: #747774;
+    position: fixed;
+    font-size: 30px;
+
+    cursor: pointer;
+}
+
+.modal-top .priviousestimatelink {
+
+    top: 6%;
+    right: 13%;
+    position: fixed;
+
+
+    cursor: pointer;
+    color: var(--priemery-color, #6AB716);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.modal-top h3 {
+    color: var(--New-Black-color-Text, #585858);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    text-align: center;
+}
+
+.form-container {
+    align-items: center;
+
+    padding-left: 40px;
+}
+
+/* add client modal styling  */
+.modal-footer button {
+    display: flex;
+    width: 134px;
+    height: 34px;
+    padding: 8px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--White, #fff);
+    font-family: Poppins;
+    font-size: 14px;
+    border-radius: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.modal-footer .btn-save {
+    background-color: #6ab716;
+    border-color: #6ab716;
+}
+
+.modal-body .form-container label {
+    display: block;
+    margin: 20px 0px;
+    color: var(--New-Black-color-Text, #585858);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.modal-body .form-container input {
+    display: block;
+    color: var(--Dark-Text, #a6a3a3);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px 0px 10px 5px;
+    border: none;
+    border-bottom: 1px #999 solid;
+    outline: none;
+    width: 90%;
+}
+
+.modal-body .form-container h5 {
+    color: var(--priemery-color, #6ab716);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+}
+.modal-footer{
+
+    margin-bottom: 30px !important;
+}
+/* create estimate modal css */
+ .add-client-option {
+    display: flex;
+
+    text-decoration: none;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: end;
+
+    align-items: start;
+    cursor: pointer;
+}
+
+ .add-client-option h5 {
+    color: var(--priemery-color, #6ab716);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.estimatemodal .form-container select {
+    outline: none;
+    color: var(--New-Black-color-Text, #585858);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.estimatemodal .form-container .form-select {
+    box-shadow: none;
+    border-radius: 9px;
+    border: 1px solid var(--Stroke-Color, #ddd);
+    /* background: rgba(217, 217, 217, 0.00); */
+}
+
+.estimatetemplatecreatenewbtn {
+    display: flex;
+    width: 263px;
+    padding: 10px 13px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--priemery-color, #6ab716);
+    color: var(--Text-White, #fff);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.estimatetemplaterowinformation button {
+    /* display: flex; */
+    padding: 9px 13px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #529d00;
+    color: var(--Text-White, #fff);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+/* emptyclientdetails css */
+.emptyclientdetails .client-details{
+    padding:0px 15px;
+}
+.emptyclientdetails .client-details h1{
+    color: var(--gray, #2D3748);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.emptyclientdetails .client-details h4{
+    color: var(--gray-logo-color, #696969);
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.emptyclientdetails .client-details .hide-part
+{
+    /* display:flex; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+display: none;
+
+}
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-300%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.emptyclientdetails .client-details .select-box-container{
+
+    width:100%;
+    margin-left: 10px;
+    z-index: 10000;
+    padding:0px !important;
+    /* border: 1px solid red; */
+}
+.emptyclientdetails .client-details .hide-part{
+    height: auto;
+}
+.emptyclientdetails .client-details .hide-part button {
+    display: flex;
+    width: 134px;
+    height: 34px;
+
+    padding: 8px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 7px;
+    border: none;
+background: var(--priemery-color, #6AB716);
+color: var(--White, #FFF);
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.client-project-table  h3{
+    color: var(--gray, #2D3748);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.client-project-table{
+    height: 260px;
+}
+.total-amount h3{
+    color: var(--gray, #2D3748);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+/* priviousestimate modal styling */
+.priviousestimate .client-details h1{
+    color: var(--gray, #2D3748);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.privious-estimate-table  a{
+    display: block;
+    color: var(--priemery-color, #6AB716);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration-line: underline;
+}
+.privious-estimate-table .date span{
+    color: var(--gray, #2D3748);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+text-align: center;
+display: block;
+line-height: normal;
+}
+.privious-estimate-table .amount span{
+    color: #000;
+    text-align: end;
+    display: block;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* cuustom alert */
+.customalert{
+    width: 340px;
+height: 131px;
+flex-shrink: 0;
+border-radius: 5px;
+position: absolute;
+right: 0;
+display: none;
+padding:15px;
+background: var(--priemery-color, #6AB716);
+z-index: 8734598743985743985743;
+
+}
+.customalert span{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+/* media */
+@media (max-width:767px) {
+    .modal-container {
+        width:70vw;
+        height: auto;
+        /* position: fixed; */
+    }
+}

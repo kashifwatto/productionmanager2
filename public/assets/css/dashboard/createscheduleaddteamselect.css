@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+
+.addteamselectemploywrapper {
+    /* width: 100%; */
+    /* position: absolute; */
+
+
+    margin: 0px auto 0;
+}
+
+.addteamselectemployeebtn,
+li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.addteamselectemployeebtn {
+    height: 40px;
+    padding: 0 20px;
+    font-size: 22px;
+    border-radius: var(--8, 8px);
+    border: 1px solid rgba(105, 105, 105, 0.30);
+    background: #fff;
+
+
+
+    justify-content: space-between;
+
+}
+
+.addteamselectemployeebtn span {
+    color: var(--New-Black-color-Text, #585858);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.addteamselectemployeebtn i {
+    font-size: 31px;
+    color: var(--New-Black-color-Text, #585858);
+    transition: transform 0.3s linear;
+}
+
+.addteamselectemploywrapper.active .addteamselectemployeebtn i {
+    transform: rotate(-180deg);
+    color: #fff;
+}
+
+.addteamselecttemplatecontent {
+    display: none;
+    padding: 5px 0px;
+    margin-top: 0px;
+    border: 1px solid var(--Stroke-Color, #DDD);
+    background: #FFF;
+
+    border-radius: 7px;
+
+}
+
+.addteamselectemploywrapper.active .addteamselecttemplatecontent {
+    display: block;
+    position: absolute;
+width:270px ;
+
+}
+
+.addteamselecttemplatecontent .addteamselectemployeesearch {
+    position: relative;
+}
+
+.addteamselectemployeesearch i {
+    top: 50%;
+    /* left: 15px; */
+    color: #999;
+    font-size: 20px;
+    pointer-events: none;
+    transform: translate(50%, -50%);
+    position: absolute;
+}
+
+.addteamselectemployeesearch input {
+
+    width: 90% !important;
+    height: 40px;
+    outline: none;
+    margin-left: 15px;
+
+    font-size: 17px;
+    border-radius: 6px;
+    color: var(--Black-Color, #383838);
+    border: 2px solid var(--Stroke-Color, #DDD) !important;
+    background: rgba(217, 217, 217, 0.00);
+
+
+}
+
+.addteamselectemployeesearch input:focus {
+    padding-left: 42px;
+    border: 2px solid var(--Stroke-Color, #DDD);
+    color: var(--Black-Color, #383838);
+}
+
+.addteamselecttemplatecontent .addteamselectemployeeoption {
+
+    margin-top: 10px;
+    /* max-height: 150px; */
+    overflow-y: auto;
+
+    /* padding-right: 7px; */
+    padding-left: 0px !important;
+}
+
+.addteamselecttemplatecontent .addteamselectemployeeoption li {
+    color: var(--gray, #2D3748);
+    font-family: Poppins;
+    font-size: 14px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 0px !important;
+    margin-top: 5px;
+}
+
+.addteamselecttemplatecontent .addteamselectemployeeoption li:hover {
+    background-color: #6AB716;
+    color: white;
+}
+
+.addteamselectemployeeoption::-webkit-scrollbar {
+    width: 14px;
+    height: 170px;
+}
+
+.addteamselectemployeeoption::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* border-radius: 25px; */
+}
+
+.addteamselectemployeeoption::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: #C1C1C1;
+}
+
+.addteamselectemployeeoption::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+}
+
+.addteamselectemployeeoption li {
+    /* height: 50px; */
+    /* padding: 100px; */
+    margin: 0px;
+    font-size: 21px;
+}
+
+
+
+
+
+/* for trailer select box */
+
+
+.addteamselecttrailerwrapper{
+    width: 100% !important;
+
+
+    margin: 0px auto 0;
+  }
+  .addteamselecttrailertemplatebtn, li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .addteamselecttrailertemplatebtn{
+    height: 40px;
+    padding: 0px 3px;
+    font-size: 22px;
+    border-radius: var(--8, 8px);
+    border: 1px solid rgba(105, 105, 105, 0.30);
+  background: #FFF;
+
+
+
+    justify-content: space-between;
+
+  }
+  .addteamselecttrailertemplatebtn span{
+      color: var(--New-Black-color-Text, #585858);
+  font-family: Poppins;
+  margin-left: 5px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .addteamselecttrailertemplatebtn i{
+    font-size: 31px;
+    color: var(--New-Black-color-Text, #585858);
+    transition: transform 0.3s linear;
+  }
+  .addteamselecttrailerwrapper.active .addteamselecttrailertemplatebtn i{
+    transform: rotate(-180deg);
+    color: #fff;
+  }
+  .addtesmselecttrailertemplatecontent{
+    display: none;
+    padding: 5px 0px;
+    margin-top: 0px;
+    border: 1px solid var(--Stroke-Color, #DDD);
+  background: #FFF;
+
+    border-radius: 7px;
+
+  }
+  .addteamselecttrailerwrapper.active .addtesmselecttrailertemplatecontent{
+    display: block;
+    position: absolute;
+    width:170px;
+
+  }
+  .addtesmselecttrailertemplatecontent .addteamselecttrailertemplatesearch{
+    position: relative;
+  }
+  .addteamselecttrailertemplatesearch i{
+    top: 50%;
+    /* left: 15px; */
+    color: #999;
+    font-size: 20px;
+    pointer-events: none;
+    transform: translate(50%,-50%);
+    position: absolute;
+  }
+  .addteamselecttrailertemplatesearch input{
+
+    width: 90% !important;
+    height: 40px;
+    outline: none;
+    margin-left:15px;
+
+    font-size: 17px;
+    border-radius: 6px;
+    color: var(--Black-Color, #383838);
+  border: 2px solid var(--Stroke-Color, #DDD) !important;
+  background: rgba(217, 217, 217, 0.00);
+
+
+  }
+  .addteamselecttrailertemplatesearch input:focus{
+    padding-left: 42px;
+    border: 2px solid var(--Stroke-Color, #DDD);
+    color: var(--Black-Color, #383838);
+  }
+
+  .addtesmselecttrailertemplatecontent .addteamselecttrailertemplateoptions{
+
+    margin-top: 10px;
+
+    overflow-y: auto;
+
+
+    padding-left:0px !important;
+  }
+  .addtesmselecttrailertemplatecontent .addteamselecttrailertemplateoptions li{
+      color: var(--gray, #2D3748);
+  font-family: Poppins;
+  font-size: 14px;
+  padding:10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 0px !important;
+  /* margin-top: 5px; */
+  }
+  .addtesmselecttrailertemplatecontent .addteamselecttrailertemplateoptions li:hover{
+    background-color: #6AB716;
+    color:white;
+  }
+  .addteamselecttrailertemplateoptions::-webkit-scrollbar{
+    width: 14px;
+    height: 170px;
+  }
+  .addteamselecttrailertemplateoptions::-webkit-scrollbar-track{
+    background: #f1f1f1;
+    /* border-radius: 25px; */
+  }
+  .addteamselecttrailertemplateoptions::-webkit-scrollbar-thumb{
+      border-radius: 6px;
+      background: #C1C1C1;
+  }
+  .addteamselecttrailertemplateoptions::-webkit-scrollbar-thumb:hover{
+    background: #b3b3b3;
+  }
+  .addteamselecttrailertemplateoptions li{
+    /* height: 50px; */
+    /* padding: 100px; */
+    margin: 0px;
+    font-size: 21px;
+  }
+
+
+/* for truck */
+  .addteamselecttruckwrapper {
+    width: 100%;
+    margin: 0px auto 0;
+}
+
+.addteamselecttrucktemplatebtn,
+li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.addteamselecttrucktemplatebtn {
+    height: 40px;
+    padding: 0px 3px;
+    font-size: 22px;
+    border-radius: var(--8, 8px);
+    border: 1px solid rgba(105, 105, 105, 0.30);
+    background: #fff;
+    justify-content: space-between;
+}
+
+.addteamselecttrucktemplatebtn span {
+    color: var(--New-Black-color-Text, #585858);
+    font-family: Poppins;
+    font-size: 10px;
+    margin-left:5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.addteamselecttrucktemplatebtn i {
+    font-size: 31px;
+    color: var(--New-Black-color-Text, #585858);
+    transition: transform 0.3s linear;
+}
+
+.addteamselecttruckwrapper.active .addteamselecttrucktemplatebtn i {
+    transform: rotate(-180deg);
+    color: #fff;
+}
+
+.addteamselecttrucktemplatecontent {
+    display: none;
+    padding: 5px 0px;
+    margin-top: 0px;
+    border: 1px solid var(--Stroke-Color, #DDD);
+    background: #FFF;
+    border-radius: 7px;
+}
+
+.addteamselecttruckwrapper.active .addteamselecttrucktemplatecontent {
+    display: block;
+    position: absolute;
+    width: 160px;
+
+}
+
+.addteamselecttrucktemplatecontent .addteamselecttrucktemplatesearch {
+    position: relative;
+}
+
+.addteamselecttrucktemplatesearch i {
+    top: 50%;
+    color: #999;
+    font-size: 20px;
+    pointer-events: none;
+    transform: translate(50%, -50%);
+    position: absolute;
+}
+
+.addteamselecttrucktemplatesearch input {
+    width: 90% !important;
+    height: 40px;
+    outline: none;
+    margin-left: 15px;
+    font-size: 17px;
+    border-radius: 6px;
+    color: var(--Black-Color, #383838);
+    border: 2px solid var(--Stroke-Color, #DDD) !important;
+    background: rgba(217, 217, 217, 0.00);
+}
+
+.addteamselecttrucktemplatesearch input:focus {
+    padding-left: 42px;
+    border: 2px solid var(--Stroke-Color, #DDD);
+    color: var(--Black-Color, #383838);
+}
+
+.addteamselecttrucktemplatecontent .addteamselecttrucktemplateoptions {
+    margin-top: 10px;
+    overflow-y: auto;
+    padding-left: 0px !important;
+}
+
+.addteamselecttrucktemplatecontent .addteamselecttrucktemplateoptions li {
+    color: var(--gray, #2D3748);
+    font-family: Poppins;
+    font-size: 14px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 0px !important;
+}
+
+.addteamselecttrucktemplatecontent .addteamselecttrucktemplateoptions li:hover {
+    background-color: #6AB716;
+    color: white;
+}
+
+.addteamselecttrucktemplateoptions::-webkit-scrollbar {
+    width: 14px;
+    height: 170px;
+}
+
+.addteamselecttrucktemplateoptions::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.addteamselecttrucktemplateoptions::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: #C1C1C1;
+}
+
+.addteamselecttrucktemplateoptions::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+}
+
+.addteamselecttrucktemplateoptions li {
+    margin: 0px;
+    font-size: 21px;
+}
+
+
+/* For select project select box */
+
+.addteamselectprojectwrapper {
+  width: 100%;
+  margin: 0px auto 0;
+}
+
+.addteamselectprojectbtn,
+li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.addteamselectprojectbtn {
+  height: 40px;
+  padding: 0px 3px;
+  font-size: 22px;
+  border-radius: var(--8, 8px);
+  border: 1px solid rgba(105, 105, 105, 0.30);
+  background: #fff;
+  justify-content: space-between;
+}
+
+.addteamselectprojectbtn span {
+  color: var(--New-Black-color-Text, #585858);
+  font-family: Poppins;
+  font-size: 18px;
+  margin-left:5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.addteamselectprojectbtn i {
+  font-size: 31px;
+  color: var(--New-Black-color-Text, #585858);
+  transition: transform 0.3s linear;
+}
+
+.addteamselectprojectwrapper.active .addteamselectprojectbtn i {
+  transform: rotate(-180deg);
+  color: #fff;
+}
+
+.addteamselectprojectcontent {
+  display: none;
+  padding: 5px 0px;
+  margin-top: 0px;
+  border: 1px solid var(--Stroke-Color, #DDD);
+  background: #FFF;
+  border-radius: 7px;
+  height: 280px;
+  overflow-y: auto;
+}
+
+.addteamselectprojectwrapper.active .addteamselectprojectcontent {
+  display: block;
+  /* position: absolute; */
+
+
+}
+
+.addteamselectprojectcontent .addteamselectprojectsearch {
+  position: relative;
+}
+
+.addteamselectprojectsearch i {
+  top: 50%;
+  color: #999;
+  font-size: 20px;
+  pointer-events: none;
+  transform: translate(50%, -50%);
+  position: absolute;
+}
+
+.addteamselectprojectsearch input {
+  width: 95% !important;
+  height: 40px;
+  outline: none;
+  margin-left: 15px;
+  font-size: 17px;
+  border-radius: 6px;
+  color: var(--Black-Color, #383838);
+  border: 2px solid var(--Stroke-Color, #DDD) !important;
+  background: rgba(217, 217, 217, 0.00);
+}
+
+.addteamselectprojectsearch input:focus {
+  padding-left: 42px;
+  border: 2px solid var(--Stroke-Color, #DDD);
+  color: var(--Black-Color, #383838);
+}
+
+.addteamselectprojectcontent .addteamselectprojectoptions {
+  margin-top: 10px;
+  overflow-y: auto;
+  padding-left: 0px !important;
+}
+
+.addteamselectprojectcontent .addteamselectprojectoptions li {
+  color: var(--gray, #2D3748);
+  font-family: Poppins;
+  font-size: 14px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 0px !important;
+}
+
+.addteamselectprojectcontent .addteamselectprojectoptions li:hover {
+  background-color: #6AB716;
+  color: white;
+}
+
+.addteamselectprojectoptions::-webkit-scrollbar {
+  width: 14px;
+  height: 170px;
+}
+
+.addteamselectprojectoptions::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.addteamselectprojectoptions::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: #C1C1C1;
+}
+
+.addteamselectprojectoptions::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+}
+
+.addteamselectprojectoptions li {
+  margin: 0px;
+  font-size: 21px;
+}
+
+

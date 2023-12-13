@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.fleetandtrailerpagecontent{
+ background-color: #F7F8FA !important;
+}
+#fleetandtrailerpagecontentcontainer{
+ margin: auto;
+
+ width:100%;
+ display: flex;
+ justify-content: center;
+
+}
+#fleetandtrailerpagecontentcontainer#fleetandtrailerpagecontentcontainer .togglebuttonscontainer{
+ margin-top: 10px;
+ position: absolute;
+ width: 659px;
+
+height: 63px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:20px;
+border-radius: 10px;
+border: 2px solid rgba(106, 183, 22, 0.51);
+/* background: var(--White, #FFF); */
+}
+.togglebuttonscontainer button{
+ display: flex;
+width: 278px;
+padding: 10px 109px 10px 120px;
+justify-content: flex-end;
+align-items: center;
+border-radius: var(--8, 8px);
+border: 1px solid var(--priemery-color, #6AB716);
+background: #FFF;
+color: var(--White, #6AB716);
+text-align: center;
+font-family: Helvetica;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 24px */
+}
+.togglebuttonscontainer button:hover{
+ background: #6AB716;
+color: var(--White, #FFF);
+}
+.togglebuttonscontainer button.active{
+ background: #6AB716;
+color: var(--White, #FFF);
+}
+.section{
+ display: none;
+ margin-top: 25px;
+}
+
+.addnewbtncontainer a{
+ width: 158px;
+height: 36px;
+border-radius: 11px;
+background: var(--priemery-color, #6AB716);
+padding:5px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.addnewbtncontainer a button{
+ color: var(--Text-White, #FFF);
+
+/* Medium text */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: none;
+background-color: #0000;
+}
+.sections .above-card-container .col {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.sections .above-card-container h1{
+ color: var(--gray, #2D3748);
+
+/* 18 semi bold */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.sections .above-card-container a{
+ color: var(--priemery-color, #6AB716);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.cardcontainer{
+ width: 408px;
+/* height: 490px; */
+border-radius: 10px;
+margin: 10px 0px;
+
+background: var(--White, #FFF);
+box-shadow: 2px 2px 4.9px 0px rgba(166, 163, 163, 0.25), -1px -1px 4.3px 0px rgba(166, 163, 163, 0.25);
+}
+.cardcontainer .utl-score h3 {
+ color: var(--gray, #2D3748);
+ font-family: Poppins;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: normal;
+ text-align: center;
+}
+.cardcontainer .name {
+ color: var(--gray, #2D3748);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.cardcontainer .title {
+ color: var(--gray, #2D3748);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.cardcontainer .utl-score span {
+ color: var(--gray, #6AB716);
+
+}
+.cardcontainer .hr {
+margin-bottom: -15px;
+ display: flex;
+ justify-content: center;
+}
+.cardcontainer .hr hr {
+ width: 80%;
+ background: #6AB716;
+height: 1px;
+color: #6AB716;
+}
+.cardcontainer .activereports a{
+ color: #DB0F0F;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+text-align: center;
+}
+.cardcontainer .footerdates h1{
+ color: var(--gray, #2D3748);
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+.cardcontainer .footerdates{
+ margin-bottom: 10px;
+}
+.loadmorebtn{
+ padding: 50px 0px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.loadmorebtn a{
+ text-align: center;
+ width: 158px;
+height: 36px;
+flex-shrink: 0;
+border-radius: 11px;
+background: var(--priemery-color, #6AB716);
+}
+.loadmorebtn a button{
+ color: var(--Text-White, #FFF);
+background-color: #0000;
+border: none;
+/* Medium text */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+/* truckmodalstyling */
+.avatarimg{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 50px;
+
+}
+.form-container-addnewtruck input{
+ display: flex;
+width: 301px;
+height: 42px;
+padding: 0px 20px;
+align-items: center;
+gap: 270px;
+border-radius: var(--8, 8px);
+border: 1px solid rgba(105, 105, 105, 0.30);
+color: var(--New-Black-color-Text, #585858);
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+outline: none;
+}
+/* #overlay{
+ width:100%;
+ height: 100%;
+ z-index: 1;
+} */

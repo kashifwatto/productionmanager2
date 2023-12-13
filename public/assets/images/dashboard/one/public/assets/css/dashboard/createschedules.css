@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+.create-schdules-container-top-btn-container{
+padding:20px;
+
+}
+.create-schdules-container-2nd-row{
+    /* margin-top: 50px; */
+    padding: 50px 100px;
+}
+.create-schdules-container-2nd-row h3{
+    color: var(--gray, #2D3748);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.8px;
+}
+.create-schdules-container-2nd-row h1{
+    color: var(--gray, #2D3748);
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.schedules-live-input{
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+flex-direction: column;
+}
+.schedules-live-input input{
+    display: block;
+
+}
+.schedules-live-input label{
+    display: block;
+    color: var(--gray, #2D3748);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 55PX;
+    text-align: center;
+}
+
+
+.create-schdules-container-2nd-row-part2 a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.create-schdules-container-2nd-row-part2 a h6{
+    color: var(--priemery-color, #6AB716);
+
+
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.create-schdules-container-2nd-row-part2 a img{
+    margin-left:5px;
+    margin-top:-10px;
+}
